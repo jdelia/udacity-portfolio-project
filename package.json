@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/jdelia/udacity-portfolio-project#readme",
   "devDependencies": {
-    "stylelint": "^9.9.0"
+    "stylelint": "^9.9.0",
+    "stylelint-config-rational-order": "0.0.2",
+    "stylelint-config-standard": "^18.2.0"
   }
 }

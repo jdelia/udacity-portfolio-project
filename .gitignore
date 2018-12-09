@@ -1,4 +1,6 @@
 # Add what we want don't tracked:
 .vscode
+node_modules
+
 
 
