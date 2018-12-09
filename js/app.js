@@ -1,6 +1,6 @@
 "use strict";
 
 var scroll = new SmoothScroll('a[href*="#"]', {
-  speed: 500,
+  speed: 800,
   speedAsDuration: true
 });

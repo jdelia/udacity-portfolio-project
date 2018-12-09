@@ -1,0 +1,22 @@
+{
+  "name": "my-portfolio-site-project",
+  "version": "1.0.0",
+  "description": "By Jackie D'Elia",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jdelia/udacity-portfolio-project.git"
+  },
+  "author": "Jackie D'Elia",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jdelia/udacity-portfolio-project/issues"
+  },
+  "homepage": "https://github.com/jdelia/udacity-portfolio-project#readme",
+  "devDependencies": {
+    "stylelint": "^9.9.0"
+  }
+}
