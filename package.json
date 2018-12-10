@@ -22,5 +22,8 @@
     "stylelint": "^9.9.0",
     "stylelint-config-rational-order": "0.0.2",
     "stylelint-config-standard": "^18.2.0"
+  },
+  "dependencies": {
+    "animate.css": "^3.7.0"
   }
 }

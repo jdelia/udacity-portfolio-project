@@ -2,40 +2,59 @@
 <html>
 
 <head>
-  <meta charset="utf-8" />
-  <title>Jackie D'Elia's Portfolio Site</title>
-  <meta name="description" content="" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@14/dist/smooth-scroll.polyfills.min.js" async></script>
-  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet" />
-  <link rel="stylesheet" href="css/main.css" />
-  <script src="js/app.js" async></script>
+	<meta charset="utf-8" />
+	<title>Jackie D'Elia's Portfolio Site</title>
+	<meta name="description" content="" />
+	<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet" />
+	<link href="https://fonts.googleapis.com/css?family=Raleway:300,400,400i,700" rel="stylesheet" />
+	<link rel="stylesheet" href="css/main.css" />
+	<link rel="stylesheet" href="css/animate.css" />
+	<script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@14/dist/smooth-scroll.polyfills.min.js" async></script>
+	<script src="js/app.js" defer></script>
 </head>
 
 <body>
-  <div class="page-container">
-    <header class="site-header">
-      <img src="images/jdd-logo.svg" alt="Jackie D'Elia Design logo" />
-      <h1>Jackie D'Elia</h1>
-      <p>Front-End Developer</p>
-      <a href="#featured">Go to featured</a> <a href="#about">Go to about</a>
-    </header>
-    <main>
-      <section id="featured" class="featured-work">
-        <p>This is my featured work section.</p>
-        <img src="images/jdd-logo.svg" alt="Jackie D'Elia Design logo" />
-        <img src="images/jdd-logo.svg" alt="Jackie D'Elia Design logo" />
-        <img src="images/jdd-logo.svg" alt="Jackie D'Elia Design logo" />
-      </section>
-      <section id="about" class="about-me">
-        <p>This is my about section.</p>
-        <img src="images/jdd-logo.svg" alt="Jackie D'Elia Design logo" />
-        <img src="images/jdd-logo.svg" alt="Jackie D'Elia Design logo" />
-        <img src="images/jdd-logo.svg" alt="Jackie D'Elia Design logo" />
-      </section>
-    </main>
-    <footer><a href="#">Go to top</a></footer>
-  </div>
+	<div class="page-container">
+		<header class="site-header">
+			<img class="logo" src="images/jdd-logo.svg" alt="Jackie D'Elia Design logo" />
+			<div class="title-area">
+				<h1>Jackie D'Elia</h1>
+				<p class="animated bounceInDown">Front-End Ninja</p>
+			</div>
+		</header>
+		<nav class="main-nav" role="navigation">
+			<ul>
+				<li><a href="#featured">Featured Work</a></li>
+				<li><a href="#about">About Me</a></li>
+			</ul>
+		</nav>
+		<main class="main-content">
+			<img class="hero" src="images/hero.jpg" alt="Laptop computer on white desk next to a green plant and yellow coffee cup.">
+			<section id="featured" class="featured-work">
+				<header class="section-header">
+					<h2>Featured Work</h2>
+				</header>
+				<p>This is my featured work section.</p>
+				<img src="images/jdd-logo.svg" alt="Jackie D'Elia Design logo" />
+				<img src="images/jdd-logo.svg" alt="Jackie D'Elia Design logo" />
+				<img src="images/jdd-logo.svg" alt="Jackie D'Elia Design logo" />
+			</section>
+			<section id="about" class="about-me">
+				<header class="section-header">
+					<h2>About Me</h2>
+				</header>
+				<p>This is my about section.</p>
+				<img src="images/jdd-logo.svg" alt="Jackie D'Elia Design logo" />
+				<img src="images/jdd-logo.svg" alt="Jackie D'Elia Design logo" />
+				<img src="images/jdd-logo.svg" alt="Jackie D'Elia Design logo" />
+			</section>
+		</main>
+		<footer>
+			Copyright 2018 | <a href="https://jackiedelia.com">Jackie D'Elia</a> | <a href="#">Go to top</a>
+		</footer>
+	</div>
 </body>
 
 </html>
