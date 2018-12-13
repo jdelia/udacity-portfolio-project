@@ -1,15 +1,12 @@
-/* Main stylesheet for portfolio project */
-
-/* Define color variables */
-:root {
-  --main-color: #353535;
-  --accent-color: #0cc4c6;
-  --heading-color: #e5554e;
-}
+/* ---------------------------------------
+Main stylesheet for portfolio project
+----------------------------------------- */
 
 /* Defaults */
 html {
   font-size: 62.5%;
+
+  /* progressive enhancement with scroll - not all browsers support */
   scroll-behavior: smooth;
 }
 
@@ -17,23 +14,23 @@ body {
   margin: 20px auto;
   padding-right: 2em;
   padding-left: 2em;
-  color: var(--main-color);
+  color: #353535;
   font-weight: 400;
   font-size: 1.8rem;
   font-family: "Libre Franklin", sans-serif;
   line-height: 1.5;
 }
 
-/* Links */
+/* --- Links --- */
 a {
-  color: var(--heading-color);
+  color: #e5554e;
   text-decoration: none;
-  border-bottom: 2px solid var(--heading-color);
+  border-bottom: 2px solid #e5554e;
   transition: all 0.3s;
 }
 
 a:visited {
-  color: var(--heading-color);
+  color: #e5554e;
 }
 
 a:hover,
@@ -46,7 +43,7 @@ a:focus {
   outline: thin dotted #888;
 }
 
-/* Elements */
+/* --- Elements --- */
 hr {
   height: 3px;
   background-color: gray;
@@ -56,7 +53,7 @@ hr {
 h2,
 h3 {
   clear: both;
-  color: var(--heading-color);
+  color: #e5554e;
   font-weight: 700;
   font-size: 2.4rem;
   font-family: "Open+Sans", sans-serif;
@@ -64,7 +61,7 @@ h3 {
 }
 
 h3 {
-  color: var(--main-color);
+  color: #353535;
   font-size: 1.8rem;
 }
 
@@ -88,30 +85,30 @@ h3 {
   transform: scale(1.03);
 }
 
-/* Site container */
+/* --- Site container --- */
 .page-container {
   max-width: 1280px;
   margin: auto;
 }
 
-/* Site header */
+/* --- Site header --- */
 .site-header {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
   align-items: center;
   padding-bottom: 0.5em;
-  border-bottom: 2px solid var(--accent-color);
+  border-bottom: 2px solid #0cc4c6;
 }
 
 .site-header .logo {
-  width: 100%;
-  height: 80px;
+  width: 88px;
+  height: 84px;
 }
 
 .site-header h1 {
   margin: 0;
-  color: var(--main-color);
+  color: #353535;
   font-weight: 300;
   font-size: 4.8rem;
   text-transform: uppercase;
@@ -133,7 +130,7 @@ h3 {
   animation-iteration-count: 1;
 }
 
-/* Navigation */
+/* --- Navigation --- */
 .main-nav {
   display: flex;
   justify-content: center;
@@ -159,7 +156,7 @@ h3 {
 .main-nav a {
   position: relative;
   padding-bottom: 5px;
-  color: var(--heading-color);
+  color: #e5554e;
   font-weight: bold;
   font-size: 1.6rem;
   text-transform: uppercase;
@@ -169,7 +166,7 @@ h3 {
 
 .main-nav a:hover,
 .main-nav a:focus {
-  color: var(--heading-color);
+  color: #e5554e;
 }
 
 .menu a::before {
@@ -179,7 +176,7 @@ h3 {
   left: 0;
   width: 100%;
   height: 3px;
-  background: var(--heading-color);
+  background: #e5554e;
   transform: scale3d(0, 1, 1);
   transition: transform 0.1s;
 }
@@ -191,13 +188,13 @@ h3 {
   transition-duration: 0.3s;
 }
 
-/* Main content area */
+/* --- Main content area --- */
 .main-content .hero {
   width: 100%;
   height: auto;
 }
 
-/* Featured Work section */
+/* --- Featured Work section --- */
 .featured-work {
   display: block;
   margin: 2em auto;
@@ -233,10 +230,10 @@ h3 {
 
 .featured-item .button {
   margin-top: auto;
-  color: var(--main-color);
+  color: #353535;
 }
 
-/* About me section */
+/* --- About me section --- */
 
 .about-me {
   margin: 2em auto;
@@ -275,7 +272,7 @@ h3 {
   margin: 0.75em;
 }
 
-/* Site footer */
+/* --- Site footer --- */
 
 .colophon {
   display: flex;
@@ -287,11 +284,13 @@ h3 {
   font-family: "Open Sans", sans-serif;
 }
 
+/* stylelint-disable */
 .colophon a {
   margin: 0 0.75em;
 }
+/* stylelint-enable */
 
-/* Media queries */
+/* --- Media queries --- */
 
 @media screen and (min-width: 600px) {
   .site-header {
