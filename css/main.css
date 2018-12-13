@@ -225,11 +225,13 @@ h3 {
   flex-flow: column nowrap;
   justify-content: flex-start;
   align-items: center;
+  max-width: 100%;
   margin: 1em 0.5em;
 }
 
 .featured-item img {
-  width: 400px;
+  width: auto;
+  max-width: 400px;
   height: auto;
   transition: transform 0.3s;
 }
