@@ -39,9 +39,9 @@ a:active {
   border-color: transparent;
 }
 
-a:focus {
+/* a:focus {
   outline: thin dotted #888;
-}
+} */
 
 /* --- Elements --- */
 hr {
