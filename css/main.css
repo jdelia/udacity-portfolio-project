@@ -194,6 +194,7 @@ h3 {
 .main-content .hero {
   width: 100%;
   height: auto;
+  animation-duration: 0.8s;
   animation-delay: 0.3s;
 }
 
